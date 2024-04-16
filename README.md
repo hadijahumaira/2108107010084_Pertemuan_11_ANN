@@ -48,4 +48,5 @@ trestbps (Tekanan Darah Istirahat): Tingkat tekanan darah pasien saat istirahat 
    - Mean Absolute Error (MAE): 3.7166166627980193
    - Root Mean Square Error (RMSE): 4.712881891882799
    - R-squared (R^2): 0.6209130846050479
+     
   SVM memiliki nilai Mean Absolute Error (MAE) dan Root Mean Square Error (RMSE) yang lebih rendah, serta nilai R-squared (R^2) yang lebih tinggi dibandingkan dengan ANN. Ini menunjukkan bahwa SVM lebih akurat dalam memprediksi nilai target dan lebih dekat dengan nilai sebenarnya dalam dataset.
