@@ -1,4 +1,4 @@
-## Klasifikasi dan Regresi dengan
+# Klasifikasi dan Regresi dengan
 ### NAMA: HADIJA HUMAIRA
 
 ### NPM: 2108107010084
@@ -8,8 +8,8 @@ Dataset
 - KLasikasi: https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland
 - Regresi: https://www.kaggle.com/datasets/saquib7hussain/experience-salary-dataset
   
-## Penjelasan Dataset
-1. SVM CLassfification
+# Penjelasan Dataset
+## 1. SVM CLassfification
    
    Dataset yang digunakan adalah Heart Disease Cleveland, yaitu tentang klasifikasi penyakit jantung yang dikumpulkan oleh Clinic Cleveland.Terdapat beberapa atribut dalam dataset yaitu:
 - Age (Umur): Umur pasien dalam tahun (Numerik)
@@ -27,7 +27,7 @@ trestbps (Tekanan Darah Istirahat): Tingkat tekanan darah pasien saat istirahat 
 - thal (Thalassemia)
 - target: Variabel target yang harus diprediksi, di mana nilai 1 menunjukkan pasien menderita penyakit jantung dan nilai 0 menunjukkan pasien normal.
 
-2. SVRegression
+## 2. SVRegression
    
    Dataset yang digunakan adalah Experience Salary. Dataset ini berisi informasi tentang hubungan antara pengalaman kerja (dalam bulan) dan gaji bulanan yang sesuai (dalam ribuan dolar) dari karyawan di berbagai industri. Kolom pertama adalah pengalaman kerja(experience) yang merupakan variable X(independen) dan kolom kedua adalah jumlah gaji(salary) yang merupakan variable Y(dependen).
 
@@ -35,6 +35,8 @@ trestbps (Tekanan Darah Istirahat): Tingkat tekanan darah pasien saat istirahat 
 ## Klasifikasi
 - Akurasi Support Vector Machine : 0.7763157894736842
 - Akurasi Artificial Neural Network : Accuracy: 0.8032786885245902
+
+  Berdasarkan hasil dari klasifikasi, bahwa Artificial Neural Network (ANN) memiliki akurasi yang sedikit lebih tinggi daripada Support Vector Machine (SVM). Oleh karena itu, untuk masalah klasifikasi yang sama, ANN mungkin lebih diunggulkan karena kemampuannya untuk menghasilkan prediksi yang lebih akurat.
   
 ## Regresi 
 - Akurasi Support Vector Machine :
@@ -46,5 +48,4 @@ trestbps (Tekanan Darah Istirahat): Tingkat tekanan darah pasien saat istirahat 
    - Mean Absolute Error (MAE): 3.7166166627980193
    - Root Mean Square Error (RMSE): 4.712881891882799
    - R-squared (R^2): 0.6209130846050479
-
-# 
+  SVM memiliki nilai Mean Absolute Error (MAE) dan Root Mean Square Error (RMSE) yang lebih rendah, serta nilai R-squared (R^2) yang lebih tinggi dibandingkan dengan ANN. Ini menunjukkan bahwa SVM lebih akurat dalam memprediksi nilai target dan lebih dekat dengan nilai sebenarnya dalam dataset.
