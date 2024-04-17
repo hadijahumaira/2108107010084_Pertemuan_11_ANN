@@ -42,7 +42,7 @@ trestbps (Tekanan Darah Istirahat): Tingkat tekanan darah pasien saat istirahat 
 - Akurasi Support Vector Machine :
     - Mean Absolute Error (MAE): 4.161793617562643
     - Root Mean Square Error (RMSE): 5.257747667792673
-    - R-squared (R^2): 0.8980536332952823
+    - R-squared (R^2): Accuracy: 0.819672131147541
  
 - Akurasi Artificial Neural Network
    - Mean Absolute Error (MAE): 3.7166166627980193
